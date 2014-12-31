@@ -1,0 +1,17 @@
+body {
+	background: gray;
+}
+
+.main {
+	background-color: white;
+	height: 500px;
+	width: 150px;
+}
+
+.in-cart{
+	text-decoration: line-through;
+}
+.need {
+	font-weight: bold;
+}
+.button
