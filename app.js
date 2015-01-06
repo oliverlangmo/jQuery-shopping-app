@@ -1,12 +1,19 @@
 $(document).ready(function() {
 		$("#add-item").click(function(){
-			$("ul").append("<li class='need'><button class='got'>Got it</button>" + $("input#input").val() + "</li>");
-
-		})
-		$("ul").on('click', '.got', function() {
-			$(this).closest("li").toggleClass("in-cart");
-			$(this).remove();
-		})
-});		
-
+			if( $('input#input').val().trim().length === 0 ) {
+				$('#error').show();
+				$('input#input').val("");
+		} else {
+			$("ol").append("<li class='need'><input type=checkbox>" + $("input#input").val() + "</li>");
+			$("input#input").val('');
+			$('#error').hide();
+        }
+        $("#remove").click(function() {
+	      $('#groceries').closest("li").remove();
+	    })  
+});
+$("ol").on('click', '[type=checkbox]', function() {
+			$(this).closest("li").toggleClass("in-cart");	
+		})		
+});
 

@@ -5,7 +5,8 @@ body {
 .main {
 	background-color: white;
 	height: 500px;
-	width: 150px;
+	width: 300px;
+	margin: 0 auto;
 }
 
 .in-cart{
@@ -14,4 +15,13 @@ body {
 .need {
 	font-weight: bold;
 }
-.button
+ol {
+	list-style-type: lower-greek;
+}
+li{
+	background-color: green;
+	border-radius: 10px;
+}
+#error{
+	display: none;
+}

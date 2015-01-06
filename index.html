@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>shopping list</title>
 	<link rel="stylesheet" href="mystyle.css">
 	<script src="https://code.jquery.com/jquery.min.js"></script>
 	<script src="app.js"></script>
 </head>
 <body>
+
 	<div class="main">
-		<ul class="grocery-list">
-			<li class="in-cart">Milk</li>
-			<li class="need"><button class="got">Got it</button>Eggs</li>
-			
-		</ul>
+		<h1>Your Shopping List</h1>
+	<p>Enter items below and hit Add Item</p>
+	<p>Once you get the item check the box</p>
+		<ol id="groceries">
+			<li class="in-cart"><input type="checkbox">Milk</li>		
+		</ol>
 		<input type="text" id="input">
-		<button id="add-item">Add item</button>
-		
+		<button id="add-item">Add Item</button>
+		<button id="remove">Remove Item</button>
+		<div id="error">Please enter grocery item</div>
 	</div>
 </body>
 </html>
