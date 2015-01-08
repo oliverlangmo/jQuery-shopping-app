@@ -7,6 +7,7 @@ body {
 	height: 500px;
 	width: 300px;
 	margin: 0 auto;
+	background: url(img/notepad1.jpg); 
 }
 
 .in-cart{
@@ -19,9 +20,13 @@ ol {
 	list-style-type: lower-greek;
 }
 li{
-	background-color: green;
-	border-radius: 10px;
+	font-family: 'Roboto' Helvetica, Sans-serif;
+	font-weight: bold;
+	color: #333;
 }
 #error{
 	display: none;
+}
+h1{
+	padding-top: 70px;
 }

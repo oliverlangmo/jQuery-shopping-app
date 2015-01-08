@@ -8,8 +8,8 @@ $(document).ready(function() {
 			$("input#input").val('');
 			$('#error').hide();
         }
-        $("#remove").click(function() {
-	      $('#groceries').closest("li").remove();
+        $("#remove").on('click',function() {
+	      $('ol li:last-child').remove();
 	    })  
 });
 $("ol").on('click', '[type=checkbox]', function() {
