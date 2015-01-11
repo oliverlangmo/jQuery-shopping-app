@@ -32,6 +32,9 @@ h1, p, li{
 
 #error{
 	display: none;
+	font-family: 'Permanent Marker', cursive;
+	padding-left: 50px;
+	color: red;
 }
 #input{
 	position: relative;
