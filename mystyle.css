@@ -1,13 +1,17 @@
 body {
-	background: gray;
+	background:url(img/kitchen1.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center center;
 }
 
 .main {
-	background-color: white;
-	height: 500px;
-	width: 300px;
+	background-color: transparent;
+	height: 660px;
+	width: 360px;
 	margin: 0 auto;
-	background: url(img/notepad1.jpg); 
+	background: url(img/whiteboard1.jpg); 
+	background-repeat: no-repeat;
 }
 
 .in-cart{
@@ -18,15 +22,35 @@ body {
 }
 ol {
 	list-style-type: lower-greek;
+	padding-left: 50px;
 }
-li{
-	font-family: 'Roboto' Helvetica, Sans-serif;
+h1, p, li{
+	font-family: 'Permanent Marker', cursive;
 	font-weight: bold;
 	color: #333;
 }
+
 #error{
 	display: none;
 }
+#input{
+	position: relative;
+	left: 20px;
+}
 h1{
-	padding-top: 70px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 20px;
+}
+p {
+	text-align: center;
+	
+}
+#add-item {
+	position: relative;
+	left: 30px;
+}
+#remove {
+position: relative;
+left: 35px;
 }
