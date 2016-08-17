@@ -15,8 +15,6 @@ $(document).ready(function() {
 	});// remove item
 
 	$("ol").on('click', '[type=checkbox]', function() {
-		$(this).closest("li").toggleClass("in-cart");	
-	})// check item		
+		$(this).closest("li").toggleClass("in-cart");
+	});// check item		
 });
-
-

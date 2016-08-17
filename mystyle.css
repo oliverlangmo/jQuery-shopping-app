@@ -10,7 +10,7 @@ body {
 	height: 660px;
 	width: 360px;
 	margin: 0 auto;
-	background: url(img/whiteboard1.jpg); 
+	background: url(img/whiteboard1.jpg);
 	background-repeat: no-repeat;
 }
 
@@ -47,7 +47,7 @@ h1{
 }
 p {
 	text-align: center;
-	
+
 }
 #add-item {
 	position: relative;
